@@ -25,7 +25,7 @@ router.post('/second-word', (req, res) => {
 
             res.status(200).json({
                 status: 'New name added',
-                obj
+                obj 
             })
         })
 
